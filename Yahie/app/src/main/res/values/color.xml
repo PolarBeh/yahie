@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Place all your color hex code here-->
+
+<resources>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#151515</color>
+    <color name="grey">#DEDEDE</color>
+    <color name="drawerMenuGrey">#464541</color>
+    <color name="lightYellow">#FCF7EA</color>
+    <color name="whiteSmoke">#F2F3F8</color>
+    <color name="darkBlue">#194779</color>
+</resources>

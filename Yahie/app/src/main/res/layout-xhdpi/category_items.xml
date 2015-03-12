@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+    <!-- Category Icon -->
+    <ImageView
+        android:id="@+id/categoryIcon"
+        android:contentDescription="@string/icon"
+        android:background="@color/black"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:src="@drawable/icon_explorer"
+        android:padding="1dp"/>
+
+    <!-- Category name -->
+    <TextView
+        android:id="@+id/categoryName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/categoryIcon"
+        android:layout_centerVertical="true"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:includeFontPadding="false"
+        android:text="@string/abc_action_bar_home_description"
+        android:singleLine="true"/>
+</RelativeLayout>
